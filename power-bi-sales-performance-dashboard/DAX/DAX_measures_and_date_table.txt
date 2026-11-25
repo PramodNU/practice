@@ -1,0 +1,46 @@
+// Create measures in Power BI using Modeling > New measure.
+Total Sales = SUM(Sales[Sales])
+
+Total Profit = SUM(Sales[Profit])
+
+Total Orders = DISTINCTCOUNT(Sales[Order_ID])
+
+Total Quantity = SUM(Sales[Quantity])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+Average Discount % = AVERAGE(Sales[Discount])
+
+// Create a Date table using Modeling > New table.
+Date =
+ADDCOLUMNS(
+    CALENDAR(MIN(Sales[Order_Date]), MAX(Sales[Order_Date])),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month", FORMAT([Date], "MMM"),
+    "Year-Month", FORMAT([Date], "YYYY-MM"),
+    "Quarter", "Q" & FORMAT([Date], "Q")
+)
+
+// Time-intelligence measures. Create the Date relationship first.
+Sales YTD = TOTALYTD([Total Sales], 'Date'[Date])
+
+Sales Previous Year =
+CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+
+Sales YoY % =
+DIVIDE([Total Sales] - [Sales Previous Year], [Sales Previous Year], 0)
+
+Profit Previous Year =
+CALCULATE([Total Profit], SAMEPERIODLASTYEAR('Date'[Date]))
+
+Profit YoY % =
+DIVIDE([Total Profit] - [Profit Previous Year], [Profit Previous Year], 0)
+
+// Model setup:
+// 1. Mark Date as the date table using Date[Date].
+// 2. Create Date[Date] (one) -> Sales[Order_Date] (many).
+// 3. Sort Date[Month] by Date[Month Number].
+// 4. Format monetary measures as INR and percentage measures as percentages.
