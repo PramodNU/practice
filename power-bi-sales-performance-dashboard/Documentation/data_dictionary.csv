@@ -1,0 +1,16 @@
+Column,Description,Data_Type
+Order_ID,Unique order identifier,Text
+Order_Date,Date on which the order was placed,Date
+Region,Sales region: North South East West,Text
+State,State or city label used for geographic analysis,Text
+City,City label used for geographic analysis,Text
+Customer_ID,Anonymized customer identifier,Text
+Customer_Segment,Consumer Corporate or Small Business,Text
+Category,Product category,Text
+Sub_Category,Product sub-category,Text
+Product,Product name,Text
+Quantity,Units purchased in the order line,Whole number
+Unit_Price,Price per unit in INR,Decimal
+Discount,Discount rate as decimal e.g. 0.10 = 10 percent,Decimal
+Sales,Gross sales before discount in INR,Decimal
+Profit,Illustrative estimated profit in INR,Decimal
