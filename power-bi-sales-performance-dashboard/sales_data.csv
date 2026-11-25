@@ -1,0 +1,47 @@
+Order_ID,Order_Date,Region,State,City,Customer_ID,Customer_Segment,Category,Sub_Category,Product,Quantity,Unit_Price,Discount,Sales,Profit
+ORD-00001,2024-01-03,South,Bengaluru,Bengaluru,CUST-0001,Consumer,Technology,Laptops,Business Laptop,2,42000,0.10,84000,18500
+ORD-00002,2024-01-05,West,Mumbai,Mumbai,CUST-0002,Corporate,Furniture,Chairs,Office Chair,3,6500,0.05,19500,5900
+ORD-00003,2024-01-08,North,Delhi,Delhi,CUST-0003,Consumer,Office Supplies,Paper,A4 Paper Ream,5,280,0.00,1400,410
+ORD-00004,2024-01-12,East,Kolkata,Kolkata,CUST-0004,Small Business,Technology,Phones,Smartphone A,1,24000,0.15,24000,4100
+ORD-00005,2024-01-15,South,Chennai,Chennai,CUST-0005,Corporate,Office Supplies,Stationery,Notebook Pack,6,180,0.05,1080,310
+ORD-00006,2024-01-19,West,Pune,Pune,CUST-0006,Consumer,Furniture,Tables,Study Table,2,5200,0.10,10400,2500
+ORD-00007,2024-02-02,North,Jaipur,Jaipur,CUST-0007,Consumer,Technology,Accessories,Wireless Mouse,4,850,0.00,3400,1050
+ORD-00008,2024-02-07,South,Hyderabad,Hyderabad,CUST-0008,Corporate,Technology,Laptops,Ultrabook,1,58000,0.10,58000,12400
+ORD-00009,2024-02-14,East,Bhubaneswar,Bhubaneswar,CUST-0009,Small Business,Furniture,Storage,Bookshelf,1,4300,0.05,4300,1150
+ORD-00010,2024-02-20,West,Ahmedabad,Ahmedabad,CUST-0010,Consumer,Office Supplies,Organizers,Desk Organizer,3,450,0.00,1350,420
+ORD-00011,2024-03-01,South,Kochi,Kochi,CUST-0011,Consumer,Technology,Phones,Smartphone B,2,31000,0.20,62000,9800
+ORD-00012,2024-03-09,North,Lucknow,Lucknow,CUST-0012,Corporate,Furniture,Chairs,Ergonomic Chair,2,9800,0.10,19600,5200
+ORD-00013,2024-03-16,East,Patna,Patna,CUST-0013,Consumer,Office Supplies,Paper,Premium Paper,8,390,0.05,3120,980
+ORD-00014,2024-04-02,West,Surat,Surat,CUST-0014,Small Business,Technology,Accessories,Keyboard,3,1250,0.00,3750,1050
+ORD-00015,2024-04-11,South,Bengaluru,Bengaluru,CUST-0015,Corporate,Furniture,Tables,Conference Table,1,15500,0.15,15500,2800
+ORD-00016,2024-04-25,North,Chandigarh,Chandigarh,CUST-0016,Consumer,Technology,Laptops,Gaming Laptop,1,65000,0.05,65000,15000
+ORD-00017,2024-05-04,East,Guwahati,Guwahati,CUST-0017,Consumer,Office Supplies,Stationery,Pens Set,10,120,0.00,1200,390
+ORD-00018,2024-05-18,West,Mumbai,Mumbai,CUST-0018,Corporate,Technology,Phones,Smartphone A,2,24000,0.10,48000,8500
+ORD-00019,2024-06-03,South,Chennai,Chennai,CUST-0019,Small Business,Furniture,Storage,Filing Cabinet,1,7200,0.05,7200,1750
+ORD-00020,2024-06-21,North,Delhi,Delhi,CUST-0020,Consumer,Technology,Accessories,USB Hub,5,650,0.00,3250,1100
+ORD-00021,2024-07-02,West,Pune,Pune,CUST-0021,Consumer,Office Supplies,Paper,A4 Paper Ream,12,280,0.10,3360,850
+ORD-00022,2024-07-19,South,Hyderabad,Hyderabad,CUST-0022,Corporate,Technology,Laptops,Business Laptop,2,42000,0.15,84000,15600
+ORD-00023,2024-08-07,East,Kolkata,Kolkata,CUST-0023,Consumer,Furniture,Chairs,Office Chair,4,6500,0.05,26000,7900
+ORD-00024,2024-08-24,North,Jaipur,Jaipur,CUST-0024,Small Business,Office Supplies,Organizers,Document Tray,6,220,0.00,1320,430
+ORD-00025,2024-09-05,South,Kochi,Kochi,CUST-0025,Consumer,Technology,Phones,Feature Phone,3,4500,0.10,13500,2500
+ORD-00026,2024-09-17,West,Ahmedabad,Ahmedabad,CUST-0026,Corporate,Furniture,Tables,Study Table,3,5200,0.05,15600,4400
+ORD-00027,2024-10-03,East,Bhubaneswar,Bhubaneswar,CUST-0027,Small Business,Office Supplies,Stationery,Markers,8,90,0.00,720,230
+ORD-00028,2024-10-22,North,Lucknow,Lucknow,CUST-0028,Consumer,Technology,Accessories,Wireless Mouse,2,850,0.20,1700,300
+ORD-00029,2024-11-08,South,Bengaluru,Bengaluru,CUST-0029,Corporate,Technology,Laptops,Ultrabook,1,58000,0.05,58000,13800
+ORD-00030,2024-12-15,West,Surat,Surat,CUST-0030,Consumer,Furniture,Storage,Bookshelf,2,4300,0.10,8600,2100
+ORD-00031,2025-01-05,South,Chennai,Chennai,CUST-0031,Corporate,Technology,Phones,Smartphone B,2,31000,0.10,62000,11200
+ORD-00032,2025-01-18,North,Delhi,Delhi,CUST-0032,Consumer,Furniture,Chairs,Ergonomic Chair,1,9800,0.00,9800,3100
+ORD-00033,2025-02-04,West,Mumbai,Mumbai,CUST-0033,Small Business,Office Supplies,Paper,Premium Paper,10,390,0.05,3900,1200
+ORD-00034,2025-02-21,East,Patna,Patna,CUST-0034,Consumer,Technology,Accessories,Keyboard,4,1250,0.10,5000,1150
+ORD-00035,2025-03-06,South,Hyderabad,Hyderabad,CUST-0035,Corporate,Furniture,Tables,Conference Table,1,15500,0.05,15500,3600
+ORD-00036,2025-03-20,West,Pune,Pune,CUST-0036,Consumer,Technology,Laptops,Gaming Laptop,1,65000,0.10,65000,13300
+ORD-00037,2025-04-03,North,Chandigarh,Chandigarh,CUST-0037,Small Business,Office Supplies,Stationery,Notebook Pack,12,180,0.00,2160,720
+ORD-00038,2025-04-17,South,Kochi,Kochi,CUST-0038,Consumer,Technology,Phones,Smartphone A,1,24000,0.05,24000,5100
+ORD-00039,2025-05-08,East,Guwahati,Guwahati,CUST-0039,Corporate,Furniture,Storage,Filing Cabinet,2,7200,0.10,14400,3100
+ORD-00040,2025-06-11,West,Ahmedabad,Ahmedabad,CUST-0040,Consumer,Office Supplies,Organizers,Desk Organizer,5,450,0.00,2250,760
+ORD-00041,2025-07-09,South,Bengaluru,Bengaluru,CUST-0041,Corporate,Technology,Laptops,Business Laptop,1,42000,0.05,42000,10800
+ORD-00042,2025-08-14,North,Jaipur,Jaipur,CUST-0042,Consumer,Furniture,Chairs,Office Chair,2,6500,0.15,13000,2700
+ORD-00043,2025-09-03,East,Kolkata,Kolkata,CUST-0043,Small Business,Office Supplies,Paper,A4 Paper Ream,15,280,0.00,4200,1320
+ORD-00044,2025-10-16,West,Surat,Surat,CUST-0044,Consumer,Technology,Phones,Feature Phone,2,4500,0.05,9000,1900
+ORD-00045,2025-11-22,South,Chennai,Chennai,CUST-0045,Corporate,Furniture,Tables,Study Table,2,5200,0.10,10400,2200
+ORD-00046,2025-12-08,North,Lucknow,Lucknow,CUST-0046,Consumer,Technology,Accessories,USB Hub,6,650,0.00,3900,1380
